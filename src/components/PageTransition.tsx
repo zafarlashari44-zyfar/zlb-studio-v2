@@ -20,7 +20,9 @@ function getPageName(pathname: string) {
   if (pathname.startsWith("/work")) {
     return "Work";
   }
-
+if (pathname.startsWith("/pricing")) {
+  return "Pricing";
+}
   if (pathname.startsWith("/studio")) {
     return "Studio";
   }

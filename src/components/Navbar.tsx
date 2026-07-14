@@ -24,18 +24,23 @@ const links = [
   },
   {
     label: "Services",
-    href: "/#services",
+    href: "/services",
     number: "02",
   },
   {
-    label: "Studio",
-    href: "/#studio",
+    label: "Pricing",
+    href: "/pricing",
     number: "03",
   },
   {
-    label: "Contact",
-    href: "/#contact",
+    label: "Studio",
+    href: "/studio",
     number: "04",
+  },
+  {
+    label: "Contact",
+    href: "/contact",
+    number: "05",
   },
 ];
 
